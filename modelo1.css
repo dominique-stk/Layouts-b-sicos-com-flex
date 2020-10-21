@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: darkviolet;
+    font-size: 30px; 
+    font-weight: bold;
+    text-align: center;
+}
+/* Flaxbox precisa sempre de um pai e um filho */
+header{
+    width: 1200px;
+    height: 185px;
+    background-color: black;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* */
+    flex-wrap: wrap; /*quebra de linha ele tenta ocupar o espaço*/
+}
+nav{
+    width: 1200px;
+    height: 70px;
+    background-color: crimson;
+
+}
+
+aside{
+    width: 280px;
+    height: 1000px;
+    background-color: darkgoldenrod;
+}
+
+article{
+    width: 920px;
+    height: 1000px;
+    background-color: darkorchid;
+}
+
+footer{
+
+        width: 1200px;
+        height: 200px;
+        background-color: darkslategray;
+
+}

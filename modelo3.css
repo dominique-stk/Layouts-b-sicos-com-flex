@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 1s;
+    color: purple;
+
+}
+
+h1:hover{
+    background-color: lawngreen;
+    font-size: 32px;
+    border: dotted 5px firebrick ;
+}
+
+main{
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 1200px;
+    height: 185px;
+    background-color: lightseagreen;
+}
+
+nav{
+    width: 1200px;
+    height: 70px;
+    background-color: lightslategray;
+}
+
+aside{
+    width:150px ;
+    height:1000px ;
+    background-color: limegreen;
+}
+footer{
+    width: 1200px;
+    height: 100px;
+    background-color: cyan;
+}
+
+
+#section-1{
+
+    width: 900px ;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#section-1 article{
+    width: 450px;
+    height: 500px;
+}
+
+#art-1{
+    background-color: mediumorchid;
+}
+
+#art-2{
+    background-color: mediumpurple;
+}
+
+#art-3{
+    background-color: mediumseagreen;
+}
+#art-4{
+    background-color: mediumturquoise;
+}
+
+
+
+#section-2{
+
+    height: 200px;
+    width: 1200px;
+    display: flex;
+
+}
+
+
+#section-2 article{
+
+    width: 600px;
+    height: 200px;
+}
+
+#art-5{
+    background-color: palevioletred;
+}
+
+#art-6{
+    background-color: peru;
+}
+
+
+
+
